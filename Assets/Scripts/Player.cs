@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         
         if (_jumpKeyWasPressed)
         {
-            float jumpPower = 5f;
+            float jumpPower = 6f;
             if (_superJumpRemaining > 0)
             {
                 jumpPower *= 1.5f;
